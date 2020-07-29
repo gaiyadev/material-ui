@@ -7,13 +7,13 @@ import Contact from './components/Contact/Contact';
 import Services from './components/Services/Services';
 import Navbar from './components/Layout/Navbar';
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} ></Route>
-        <Route path="/about" exact component={About} ></Route>
+        <Route path="/about" exact component={About}   ></Route>
         <Route path="/contact" exact component={Contact} ></Route>
         <Route path="/services" exact component={Services} ></Route>
       </Switch>

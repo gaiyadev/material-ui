@@ -16,7 +16,8 @@ const useStyles = makeStyles((theme) => ({
         marginTop: '10px',
     },
 }));
-const About = () => {
+const About = (props) => {
+    console.log(props)
     const classes = useStyles();
     return (
         <React.Fragment>

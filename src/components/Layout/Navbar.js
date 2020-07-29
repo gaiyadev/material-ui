@@ -25,7 +25,7 @@ const Navbar = () => {
         <AppBar position="static">
             <Toolbar>
                 <Typography variant="h6" className={classes.title}>
-                    ReactMD
+                    <Link style={{ color: 'white', textDecoration: 'none' }} to="/"> ReactMD</Link>  
                   </Typography>
                 <Link style={{ color: 'white', textDecoration: 'none' }} to="/"> <Button color="inherit">Home</Button> </Link>
                 <Link style={{ color: 'white', textDecoration: 'none' }} to="/about"> <Button color="inherit">About</Button> </Link>
